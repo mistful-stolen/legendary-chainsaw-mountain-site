@@ -50,7 +50,6 @@ object {
     display: block;
 }
 
-img,
 video {
     max-width: 100%;
     height: auto;
@@ -142,7 +141,7 @@ header a {
     /* Flex & Positioning */
     display: flex;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 10%;
 
     /* Border */
    
@@ -164,7 +163,7 @@ header a {
     justify-content: center;
     align-items: center;
 
-    padding: 0px 200px;
+    padding: 0px 10%;
 }
 
 .welcome-front-description-below  p{
@@ -174,6 +173,15 @@ header a {
 
     font-size: 20px;
     text-align: center;
+    
+}
+
+
+.fenyofasor {
+    background-image: url(imgs/fenyofasor\ ver.2.svg);
+    background-repeat: repeat-x;
+    background-size: 1000px;
+    height: 150px;
     
 }
 
