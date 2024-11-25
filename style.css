@@ -133,7 +133,17 @@ header a {
     display: flex;
     align-items: center;
     padding-left: 50px;
+
+    /* Border */
 }
 
+.welcome-front h1 {
+    color: white;
+    font-weight: 1000;
+    font-size: 72px;
+
+    font-family: "Kalam", cursive;
+    -webkit-text-stroke: black 5px;
+}
 
 
