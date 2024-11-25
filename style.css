@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 
 blockquote,
 dl,
@@ -70,20 +68,55 @@ video {
     border-style: none;
 }
 
+body {
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+}
+
 header {
     background-color: #24403D;
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.logo {
+    width: 120px;
+    height: 60px;
 }
 
 header a {
     color: white;
+    width: 120px;
+    height: 60px;
+    font-size: 16px;
 }
 
-header div ul {
+.div-header-links {
     display: flex;
     gap: 20px;
 }
 
+.div-header-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #345350;
+    font-weight: 500;
+}
+
+
+
+.div-foglalas a {
+    
+    background-color: #688D7C;
+    font-weight: bold;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    letter-spacing: 1px;
+}
 
