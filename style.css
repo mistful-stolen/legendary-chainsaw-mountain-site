@@ -79,6 +79,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-left: 10px;
+    
+    border-bottom: 2px solid black;
 }
 
 .logo {
@@ -135,6 +137,8 @@ header a {
     padding-left: 50px;
 
     /* Border */
+   
+    border-bottom: 3px solid black; 
 }
 
 .welcome-front h1 {
@@ -144,6 +148,7 @@ header a {
 
     font-family: "Kalam", cursive;
     -webkit-text-stroke: black 5px;
+    pointer-events: none;
 }
 
 
