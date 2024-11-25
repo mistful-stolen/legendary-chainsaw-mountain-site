@@ -70,6 +70,7 @@ video {
 
 body {
     font-family: "Roboto", 'Times New Roman', Times, serif;
+    background-color: #F5FFF8;
 }
 
 header {
@@ -122,6 +123,13 @@ header a {
     letter-spacing: 1px;
 }
 
+.main-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+
 .welcome-front {
     /* Background */
     background-image: url(imgs/front\ page.png);
@@ -149,6 +157,24 @@ header a {
     font-family: "Kalam", cursive;
     -webkit-text-stroke: black 5px;
     pointer-events: none;
+}
+
+.welcome-front-description-below {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px 200px;
+}
+
+.welcome-front-description-below  p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    text-align: center;
+    
 }
 
 
