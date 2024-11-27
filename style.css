@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 
 blockquote,
 dl,
@@ -234,13 +236,24 @@ header a {
     display: flex;
     justify-content: center;
 } */
+
+.flex-vertical-center {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
     
+    height: inherit;
+
+   
+}
+
 .hotel-description {
     height: 500px;
     max-width: 700px;
-    margin-top: 150px;
+   
     margin-right: 5%;
     margin-left: 5%;
+    padding-top: 50px;
 }
 
 
