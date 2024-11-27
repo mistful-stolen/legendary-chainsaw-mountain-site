@@ -322,6 +322,7 @@ header a {
 
 .heading-underline {
     margin-top: -20px;
+    margin-bottom: 20px;
     border-bottom: 6px solid;
 }
 
