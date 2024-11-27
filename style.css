@@ -189,15 +189,29 @@ header a {
 
 .description-flex {
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
+    gap: 100px;
+    
+    
+
+ 
+  
 
     
 }
 
-.hotel-imgdiv {
+.hotel-img-div {
+    /* Basic Positioning */
     background: #24403D;
+    width: inherit;
+    height: 550px;
+    
 
+    display: flex;
+    
+    justify-content: right;
+    align-items: end;
 }
 
 
@@ -209,18 +223,33 @@ header a {
     width: 750px;
     height: 500px;
 
+    margin-right: -100px;
+
+    
+
   
+}
+
+.description-img-radius {
+    border-radius: 0px 30px 30px 0px ;
 }
 
 .hotel-description {
     height: 500px;
-    width: 250px;
+    width: 500px;
+
+    
+}
+
+.heading-underline-1 {
+    margin-top: -35px;
+    border-bottom: 6px #24403D solid;
 }
 
 .heading {
     font-size: 90px;
     font-family: "Kalam", 'Times New Roman', Times, serif;
-    border-bottom: 6px #24403D solid;
+    /* border-bottom: 6px #24403D solid; */
     
 
 }
