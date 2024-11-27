@@ -17,6 +17,7 @@ body {
     margin: 0;
 }
 
+
 h1,
 h2,
 h3,
@@ -187,16 +188,10 @@ header a {
     
 }
 
-.description-flex {
+.section-flex {
     display: flex;
-    
     align-items: center;
     gap: 100px;
-    
-    
-
- 
-  
 
     
 }
@@ -224,16 +219,20 @@ header a {
     height: 500px;
 
     margin-right: -100px;
-
-    
-
-  
 }
 
 .description-img-radius {
     border-radius: 0px 30px 30px 0px ;
 }
 
+.description-center-flex{
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+}
+    
 .hotel-description {
     height: 500px;
     width: 500px;
@@ -241,15 +240,26 @@ header a {
     
 }
 
-.heading-underline-1 {
-    margin-top: -35px;
-    border-bottom: 6px #24403D solid;
+
+.heading-underline {
+    margin-top: -20px;
+    border-bottom: 6px solid;
+}
+
+.heading-underline-color-hotel {
+    border-color: #24403D;
 }
 
 .heading {
-    font-size: 90px;
+    font-size: 50px;
     font-family: "Kalam", 'Times New Roman', Times, serif;
     /* border-bottom: 6px #24403D solid; */
     
 
 }
+
+.description {
+    font-size: 20px;
+}
+
+
