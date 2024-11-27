@@ -111,10 +111,11 @@ header a {
 
 
 .div-foglalas a {
-    
+    /* Background */
     background-color: #688D7C;
     font-weight: bold;
     
+    /* Flex */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,6 +174,7 @@ header a {
 
     font-size: 20px;
     text-align: center;
+    max-width: 500px;
     
 }
 
@@ -185,4 +187,40 @@ header a {
     
 }
 
+.description-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+    
+}
+
+.hotel-imgdiv {
+    background: #24403D;
+
+}
+
+
+.img-hotel {
+    /* Image Styles */
+    background-image: url(imgs/hotel.png);
+    background-size: 100%;
+    background-position: center center;
+    width: 750px;
+    height: 500px;
+
+  
+}
+
+.hotel-description {
+    height: 500px;
+    width: 250px;
+}
+
+.heading {
+    font-size: 90px;
+    font-family: "Kalam", 'Times New Roman', Times, serif;
+    border-bottom: 6px #24403D solid;
+    
+
+}
