@@ -70,6 +70,11 @@ video {
     border-style: none;
 }
 
+input:focus {
+    outline: none;
+    border: none;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -427,6 +432,24 @@ header a {
     width: 700px;
 
     display: flex;
-    justify-content: space-around;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter-heading {
+    font-size: 24px;
+}
+
+.newsletter-input {
+    background-color: white;
+    height: 31px;
+    width: 215px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
+
