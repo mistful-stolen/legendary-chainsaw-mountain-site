@@ -273,6 +273,7 @@ header a {
     background-attachment: scroll;
     width: 650px;
     height: 400px;
+    border: black solid 2px;
     
     margin-right: -100px;
     
