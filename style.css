@@ -251,9 +251,8 @@ header a {
     gap: 100px;
 }
 
-.hotel-img-div {
+.img-div {
     /* Basic Positioning */
-    background: #24403D;
     width: inherit;
     height: 450px;
     
@@ -262,6 +261,10 @@ header a {
     
     justify-content: right;
     align-items: end;
+}
+
+.img-div-background-color-hotel {
+    background-color: #24403D;
 }
 
 
@@ -343,4 +346,30 @@ header a {
     font-size: 20px;
 }
 
+.img-baths {
+    /* Image Styles */
+    background-image: url(imgs/thermal-baths.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    width: 650px;
+    height: 400px;
+    border: black solid 2px;
 
+    margin-right: -100px;
+
+    transition: 1.2s;
+}
+
+.img-baths:hover {
+    width: 800px;
+    height: 500px;
+}
+
+.heading-underline-color-baths {
+    border-color: #48735F;
+}
+
+.img-div-background-color-baths {
+    background-color: #48735F;
+}
