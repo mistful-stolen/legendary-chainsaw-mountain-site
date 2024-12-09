@@ -325,6 +325,7 @@ header a {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    align-items: center;
     
 
    
@@ -451,8 +452,17 @@ header a {
     gap: 10px;
 }
 
+.newsletter-text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
 .newsletter-heading {
-    font-size: 24px;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .newsletter-input {
@@ -466,3 +476,6 @@ header a {
     align-items: center;
 }
 
+.newsletter-button {
+    cursor: pointer;
+}
