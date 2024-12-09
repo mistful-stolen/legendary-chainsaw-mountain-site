@@ -199,7 +199,7 @@ header a {
     background-attachment: fixed;
     background-position: center 80%;
 
-    height: 575px;
+    height: 565px;
 
     /* Flex & Positioning */
     display: flex;
@@ -249,6 +249,18 @@ header a {
     
 }
 
+.border-black-right {
+    border-right: 2px black solid;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+.border-black-left {
+    border-left: 2px black solid;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
 .section-flex {
     display: flex;
     justify-content: space-between;
@@ -281,17 +293,17 @@ header a {
     background-attachment: scroll;
     width: 650px;
     height: 400px;
-    border: black solid 2px;
+    
     
     margin-right: -100px;
     
     transition: 1.2s;
 }
 
-.img-hotel:hover {
+/* .img-hotel:hover {
     width: 800px;
     height: 500px;
-}
+} */
 
 
 
@@ -358,17 +370,17 @@ header a {
     background-attachment: scroll;
     width: 800px;
     height: 400px;
-    border: black solid 2px;
+    
 
     margin-right: -100px;
 
     transition: 1.2s;
 }
 
-.img-baths:hover {
+/* .img-baths:hover {
     width: 950px;
     height: 500px;
-}
+} */
 
 .heading-underline-color-baths {
     border-color: #48735F;
@@ -398,17 +410,16 @@ header a {
     background-attachment: scroll;
     width: 650px;
     height: 400px;
-    border: black solid 2px;
 
     margin-left: -100px;
 
     transition: 1.2s;
 }
 
-.img-giftshop:hover {
+/* .img-giftshop:hover {
     width: 800px;
     height: 500px;
-}
+} */
 
 .newsletter-background {
     background-image: url(imgs/img-2.png);
@@ -418,6 +429,8 @@ header a {
     background-position: center 80%;
 
     height: 550px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 
     display: flex;
     justify-content: center;
