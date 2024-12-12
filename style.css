@@ -451,7 +451,6 @@ header a {
     border-radius: 10px;
     height: 200px;
     width: 700px;
-
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -499,16 +498,25 @@ header a {
     display: inline-block;
 }
 
-.gallery-div {
-    background-color: #BAE4D1;
+.flex-horizontal-centered {
     width: 50%;
     height: inherit;
+    background-color: #BAE4D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-div {
+    width: initial;
+    height: inherit;
+    border-radius: 30px;
 
     display: flex;
     flex-flow: row wrap;
-    align-content: start;
+    align-content: flex-start;
 
-
+    padding: 50px;
 }
 
 .gallery-div img {
