@@ -196,7 +196,7 @@ header a {
 
 .welcome-front {
     /* Background */
-    background-image: url(imgs/front\ page.png);
+    background-image: url(imgs/front\ page.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -424,6 +424,10 @@ header a {
     width: 800px;
     height: 500px;
 } */
+
+.baths-giftshop-break {
+    height: 100px;
+}
 
 .newsletter-background {
     background-image: url(imgs/img-2.png);
