@@ -290,7 +290,7 @@ header a {
 
 .img-hotel {
     /* Image Styles */
-    background-image: url(imgs/hotel.png);
+    background-image: url(imgs/hotel.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -368,7 +368,7 @@ header a {
 
 .img-baths {
     /* Image Styles */
-    background-image: url(imgs/thermal-baths.png);
+    background-image: url(imgs/thermal-baths.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -408,7 +408,7 @@ header a {
 
 .img-giftshop {
     /* Image Styles */
-    background-image: url(imgs/giftshop.png);
+    background-image: url(imgs/giftshop.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -430,7 +430,7 @@ header a {
 }
 
 .newsletter-background {
-    background-image: url(imgs/img-2.png);
+    background-image: url(imgs/img-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -486,3 +486,34 @@ header a {
 .newsletter-button {
     cursor: pointer;
 }
+
+.gallery-flex {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-heading {
+    font-size: 50px;
+    display: inline-block;
+}
+
+.gallery-div {
+    background-color: #BAE4D1;
+    width: 50%;
+    height: inherit;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-content: start;
+
+
+}
+
+.gallery-div img {
+    height: 200px;
+    width: 200px;
+}
+
+
