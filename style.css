@@ -187,7 +187,7 @@ header a {
     background-color: #9ed1b9;
 }
 
-.main-flex {
+.main-content-flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
