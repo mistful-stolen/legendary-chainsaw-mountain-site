@@ -498,25 +498,25 @@ header a {
     display: inline-block;
 }
 
-.flex-horizontal-centered {
+
+.gallery-div {
+    
     width: 50%;
     height: inherit;
     background-color: #BAE4D1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.gallery-div {
-    width: initial;
-    height: inherit;
+    padding: 50px;
     border-radius: 30px;
 
     display: flex;
+    justify-content: center;
     flex-flow: row wrap;
-    align-content: flex-start;
+    
 
-    padding: 50px;
+}
+
+.gallery-div::after {
+    content: “”;
+    flex-grow: 1;
 }
 
 .gallery-div img {
