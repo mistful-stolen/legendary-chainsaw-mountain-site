@@ -493,8 +493,14 @@ header a {
     align-items: center;
 }
 
-.gallery-heading {
-    font-size: 50px;
+.heading-underline-gallery {
+    margin-top: -15px;
+    margin-bottom: 20px;
+    border-bottom: 6px solid;
+}
+
+.heading-underline-color-gallery {
+    border-color: #BAE4D1;
 }
 
 
@@ -518,5 +524,4 @@ header a {
     width: 300px;
     border-radius: 30px;
 }
-
 
