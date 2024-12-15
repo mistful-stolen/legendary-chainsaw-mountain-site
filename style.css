@@ -486,7 +486,7 @@ header a {
     cursor: pointer;
 }
 
-.gallery-flex {
+.vertical-section-flex {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -525,3 +525,14 @@ header a {
     border-radius: 30px;
 }
 
+.book-info {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+
+.book-info div {
+    display: flex;
+    align-items: center;
+
+}
