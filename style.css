@@ -196,7 +196,7 @@ header a {
 
 .welcome-front {
     /* Background */
-    background-image: url(imgs/front\ page.jpg);
+    background-image: url(img/front-page.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -290,7 +290,7 @@ header a {
 
 .img-hotel {
     /* Image Styles */
-    background-image: url(imgs/hotel.jpg);
+    background-image: url(img/hotel.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -368,7 +368,7 @@ header a {
 
 .img-baths {
     /* Image Styles */
-    background-image: url(imgs/thermal-baths.jpg);
+    background-image: url(img/thermal-baths.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -408,7 +408,7 @@ header a {
 
 .img-giftshop {
     /* Image Styles */
-    background-image: url(imgs/giftshop.jpg);
+    background-image: url(img/giftshop.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -430,7 +430,7 @@ header a {
 }
 
 .newsletter-background {
-    background-image: url(imgs/img-2.jpg);
+    background-image: url(img/img-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
