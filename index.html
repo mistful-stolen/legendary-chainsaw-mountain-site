@@ -1,262 +1,323 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kárpát Üdülő Hotel</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="icon/icon-grey.svg" />
-  </head>
-  <body>
+
+</head>
+<body>
     <!-- Header for links at the top -->
     <header>
-      <div>
-        <a href="#">
-          <img src="icon/logo.svg" alt="Kárpát Üdülő Hotel Logó" class="logo" />
-        </a>
-      </div>
-      <div class="div-header-links">
-        <a href="#hotel">Hotel</a>
-        <a href="#termalfurdo">Termálfürdő</a>
-        <a href="#ajandekbolt">Ajándékbolt</a>
-        <a href="#galeria">Galéria</a>
-      </div>
-      <div class="div-foglalas">
-        <a href="#">FOGLALÁS</a>
-      </div>
+        <div>
+            <a href="#">
+                <img src="icon/logo.svg" alt="Kárpát Üdülő Hotel Logó" class="logo" />
+            </a>
+        </div>
+        <div class="div-header-links">
+            <a href="#hotel">Hotel</a>
+            <a href="#termalfurdo">Termálfürdő</a>
+            <a href="#ajandekbolt">Ajándékbolt</a>
+            <a href="#galeria">Galéria</a>
+        </div>
+        <div class="div-foglalas">
+            <a href="#">FOGLALÁS</a>
+        </div>
     </header>
 
     <!-- Main where most of the content is -->
     <main>
-      <div class="main-content-flex">
-        <div class="welcome-front">
-          <h1>
-            Üdvözöljük a <br />
-            Kárpátok Szívében!
-          </h1>
+        <div class="main-content-flex">
+            <div class="welcome-front">
+                <h1>
+                    Üdvözöljük a <br />
+                    Kárpátok Szívében!
+                </h1>
+            </div>
+
+            <!-- Front image that greets the user and text below it describing what this hotel is all about -->
+            <section class="welcome-front-description-below">
+                <p>
+                    Fedezze fel a természet és a kényelem tökéletes harmóniáját
+                    üdülőnkben, ahol a festői Kárpátok lenyűgöző látványa találkozik a
+                    pihenés és felfrissülés örömével. Élvezze a regeneráló
+                    termálfürdőnket, melynek meleg forrásai ön testét és lelkét egyaránt
+                    felüdítik.
+                </p>
+            </section>
+
+            <div id="hotel" class="fenyofasor"></div>
+
+            <!-- Hotel Section -->
+            <section class="section-flex">
+                <div class="img-div description-img-radius-right img-div-background-color-hotel">
+                    <a href="img/hotel.jpg" target="_blank">
+                        <div class="img-hotel description-img-radius-right border-black-right"></div>
+                    </a>
+                </div>
+                <div class="topic">
+                    <div>
+                        <h1 class="heading">Hotel</h1>
+                        <div class="heading-underline heading-underline-color-hotel"></div>
+                    </div>
+                    <p class="description">
+                        Fedezze fel a Kárpát Hotel prémium szolgáltatásait! 4 csillagos
+                        szállodánk tágas, modern szobákkal, légkondicionálással,
+                        minibárral és ingyenes Wi-Fi-vel várja. Wellness részlegünk
+                        szaunával, gőzkabinnal és masszázsokkal garantálja a pihenést,
+                        éttermünk pedig ínycsiklandó helyi és nemzetközi fogásokat kínál.
+                        Rendezvénytermeink ideálisak konferenciák, esküvők és céges
+                        események számára. Ingyenes parkolás és könnyű megközelíthetőség
+                    </p>
+                </div>
+            </section>
+            <div id="termalfurdo" class="fenyofasor"></div>
+
+            <!-- Thermal bath section -->
+            <section class="section-flex">
+                <div class="img-div description-img-radius-right img-div-background-color-baths">
+                    <a href="img/thermal-baths.jpg" target="_blank">
+                        <div role="img"
+                             alt=""
+                             title=""
+                             class="img-baths description-img-radius-right border-black-right"></div>
+                    </a>
+                </div>
+                <div class="topic">
+                    <div>
+                        <h1 class="heading">Termálfürdő</h1>
+                        <div class="heading-underline heading-underline-color-baths"></div>
+                    </div>
+                    <p class="description">
+                        A Kárpát Hotel termálfürdője a teljes kikapcsolódás oázisa!
+                        Pihentető termálvizek, szaunavilág, gőzkabin és frissítő
+                        masszázsok várják, hogy feltöltődve távozhasson. Élvezze a
+                        gyógyító hatást és a nyugalmat a természetes termálvizekben!
+                    </p>
+                </div>
+            </section>
         </div>
+        <div id="ajandekbolt" class="baths-giftshop-break"></div>
+        <!-- Giftshop section -->
+        <div class="main-content-flex">
+            <section class="section-flex" style="margin-bottom: 50px">
+                <div class="topic">
+                    <div>
+                        <h1 class="heading">Ajándékbolt</h1>
+                        <div class="heading-underline heading-underline-color-giftshop"></div>
+                    </div>
+                    <p class="description">
+                        A Kárpát Hotel szuvenírboltjában egyedülálló ajándékokat talál,
+                        amelyek tökéletes emléket adnak a nálunk töltött időről. Kézműves
+                        termékek, helyi különlegességek és egyedi szuvenírek széles
+                        választéka várja. Tökéletes ajándékok szeretteinek, vagy egy
+                        személyes emlék a pihenésről.
+                    </p>
+                </div>
+                <div class="img-div description-img-radius-left img-div-background-color-giftshop">
+                    <a href="img/giftshop.jpg" target="_blank">
+                        <div class="img-giftshop description-img-radius-left border-black-left"></div>
+                    </a>
+                </div>
+            </section>
 
-        <!-- Front image that greets the user and text below it describing what this hotel is all about -->
-        <section class="welcome-front-description-below">
-          <p>
-            Fedezze fel a természet és a kényelem tökéletes harmóniáját
-            üdülőnkben, ahol a festői Kárpátok lenyűgöző látványa találkozik a
-            pihenés és felfrissülés örömével. Élvezze a regeneráló
-            termálfürdőnket, melynek meleg forrásai ön testét és lelkét egyaránt
-            felüdítik.
-          </p>
-        </section>
+            <!-- Newsletter Section -->
+            <section id="newsletter" class="newsletter-background">
+                <div class="newsletter">
+                    <div class="newsletter-text">
+                        <h2 class="newsletter-heading">Iratokozz fel a Hírlevelünkre!</h2>
+                        <p>
+                            Értesülj legújabb <strong>híreinkről</strong>,
+                            <strong>akciókról</strong>, és
+                            <strong>ünnepeinkről!!!</strong> ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
+                        </p>
+                    </div>
+                    <div class="newsletter-input">
+                        <input type="text" placeholder="Email" name="fname" />
+                        <img src="icon/newsletter-button.svg"
+                             alt=""
+                             id="newsletter-button"
+                             class="newsletter-button" />
+                    </div>
+                </div>
+            </section>
+            <div class="fenyofasor"></div>
+            <!-- Gallery section with a bunch of images -->
+            <section id="galeria"
+                     class="vertical-section-flex"
+                     style="padding-top: 20px">
+                <div style="width: 600px; text-align: center">
+                    <h1 class="heading">Galéria</h1>
+                    <div class="heading-underline-gallery heading-underline-color-gallery"></div>
+                </div>
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
 
-        <div id="hotel" class="fenyofasor"></div>
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 16</div>
+                        <img src="img/hotel.jpg" class="slide-img">
+                        <div class="text">Hotel</div>
+                    </div>
 
-        <!-- Hotel Section -->
-        <section class="section-flex">
-          <div
-            class="img-div description-img-radius-right img-div-background-color-hotel"
-          >
-            <a href="img/hotel.jpg" target="_blank">
-              <div
-                class="img-hotel description-img-radius-right border-black-right"
-              ></div>
-            </a>
-          </div>
-          <div class="topic">
-            <div>
-              <h1 class="heading">Hotel</h1>
-              <div
-                class="heading-underline heading-underline-color-hotel"
-              ></div>
-            </div>
-            <p class="description">
-              Fedezze fel a Kárpát Hotel prémium szolgáltatásait! 4 csillagos
-              szállodánk tágas, modern szobákkal, légkondicionálással,
-              minibárral és ingyenes Wi-Fi-vel várja. Wellness részlegünk
-              szaunával, gőzkabinnal és masszázsokkal garantálja a pihenést,
-              éttermünk pedig ínycsiklandó helyi és nemzetközi fogásokat kínál.
-              Rendezvénytermeink ideálisak konferenciák, esküvők és céges
-              események számára. Ingyenes parkolás és könnyű megközelíthetőség
-            </p>
-          </div>
-        </section>
-        <div id="termalfurdo" class="fenyofasor"></div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 16</div>
+                        <img src="img/reception.jpg" class="slide-img">
+                        <div class="text">Recepció</div>
+                    </div>
 
-        <!-- Thermal bath section -->
-        <section class="section-flex">
-          <div
-            class="img-div description-img-radius-right img-div-background-color-baths"
-          >
-            <a href="img/thermal-baths.jpg" target="_blank">
-              <div
-                role="img"
-                alt=""
-                title=""
-                class="img-baths description-img-radius-right border-black-right"
-              ></div>
-            </a>
-          </div>
-          <div class="topic">
-            <div>
-              <h1 class="heading">Termálfürdő</h1>
-              <div
-                class="heading-underline heading-underline-color-baths"
-              ></div>
-            </div>
-            <p class="description">
-              A Kárpát Hotel termálfürdője a teljes kikapcsolódás oázisa!
-              Pihentető termálvizek, szaunavilág, gőzkabin és frissítő
-              masszázsok várják, hogy feltöltődve távozhasson. Élvezze a
-              gyógyító hatást és a nyugalmat a természetes termálvizekben!
-            </p>
-          </div>
-        </section>
-      </div>
-      <div id="ajandekbolt" class="baths-giftshop-break"></div>
-      <!-- Giftshop section -->
-      <div class="main-content-flex">
-        <section class="section-flex" style="margin-bottom: 50px">
-          <div class="topic">
-            <div>
-              <h1 class="heading">Ajándékbolt</h1>
-              <div
-                class="heading-underline heading-underline-color-giftshop"
-              ></div>
-            </div>
-            <p class="description">
-              A Kárpát Hotel szuvenírboltjában egyedülálló ajándékokat talál,
-              amelyek tökéletes emléket adnak a nálunk töltött időről. Kézműves
-              termékek, helyi különlegességek és egyedi szuvenírek széles
-              választéka várja. Tökéletes ajándékok szeretteinek, vagy egy
-              személyes emlék a pihenésről.
-            </p>
-          </div>
-          <div
-            class="img-div description-img-radius-left img-div-background-color-giftshop"
-          >
-            <a href="img/giftshop.jpg" target="_blank">
-              <div
-                class="img-giftshop description-img-radius-left border-black-left"
-              ></div>
-            </a>
-          </div>
-        </section>
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 16</div>
+                        <img src="img/corridor.jpg" class="slide-img">
+                        <div class="text">Folyósó</div>
+                    </div>
 
-        <!-- Newsletter Section -->
-        <section id="newsletter" class="newsletter-background">
-          <div class="newsletter">
-            <div class="newsletter-text">
-              <h2 class="newsletter-heading">Iratokozz fel a Hírlevelünkre!</h2>
-              <p>
-                Értesülj legújabb <strong>híreinkről</strong>,
-                <strong>akciókról</strong>, és
-                <strong>ünnepeinkről!!!</strong> ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
-              </p>
-            </div>
-            <div class="newsletter-input">
-              <input type="text" placeholder="Email" name="fname" />
-              <img
-                src="icon/newsletter-button.svg"
-                alt=""
-                id="newsletter-button"
-                class="newsletter-button"
-              />
-            </div>
-          </div>
-        </section>
-        <div class="fenyofasor"></div>
-        <!-- Gallery section with a bunch of images -->
-        <section
-          id="galeria"
-          class="vertical-section-flex"
-          style="padding-top: 20px"
-        >
-          <div style="width: 50%; text-align: center">
-            <h1 class="heading">Galéria</h1>
-            <div
-              class="heading-underline-gallery heading-underline-color-gallery"
-            ></div>
-          </div>
-          <div class="gallery-div">
-            <a href="img/hotel.jpg" target="_blank">
-              <img src="img/hotel.jpg" alt="" />
-            </a>
-            <a href="img/reception.jpg" target="_blank">
-              <img src="img/reception.jpg" alt="" />
-            </a>
-            <a href="img/corridor.jpg" target="_blank">
-              <img src="img/corridor.jpg" alt="" />
-            </a>
-            <a href="img/thermal-baths.jpg" target="_blank">
-              <img src="img/thermal-baths.jpg" alt="" />
-            </a>
-            <a href="img/giftshop.jpg" target="_blank">
-              <img src="img/giftshop.jpg" alt="" />
-            </a>
-            <a href="img/garden-img-1.jpg" target="_blank">
-              <img src="img/garden-img-1.jpg" alt="" />
-            </a>
-            <a href="img/garden-img-2.jpg" target="_blank">
-              <img src="img/garden-img-2.jpg" alt="" />
-            </a>
-            <a href="img/front-page.jpg" target="_blank">
-              <img src="img/front-page.jpg" alt="" />
-            </a>
-            <a href="img/mountains.jpg" target="_blank">
-              <img src="img/img-2.jpg" alt="" />
-            </a>
-            <a href="img/mountains.jpg" target="_blank">
-              <img src="img/mountains.jpg" alt="" />
-            </a>
-            <a href="img/office-img.jpg" target="_blank">
-              <img src="img/office-img.jpg" alt="" />
-            </a>
-            <a href="img/team-img-1.jpg" target="_blank">
-              <img src="img/team-img-1.jpg" alt="" />
-            </a>
-            <a href="img/mascot.jpg" target="_blank">
-              <img src="img/mascot.jpg" alt="" />
-            </a>
-          </div>
-        </section>
-        <div class="fenyofasor"></div>
-        <!-- Appointment/Booking section; still undecided. -->
-        <section class="vertical-section-flex">
-          <div style="width: 50%; text-align: center">
-            <h1 class="heading">Foglalás</h1>
-            <div
-              class="heading-underline-gallery heading-underline-color-gallery"
-            ></div>
-          </div>
-          <div class="book-info">
-            <div>
-              <img src="icon/location-icon.svg" alt="" />
-              <p>2370 Dabas, [név] út [szám].</p>
-            </div>
-            <div>
-              <img src="icon/ringing-phone-icon.svg" alt="" />
-              <p>+36-20-123-4567</p>
-            </div>
-            <div>
-              <img src="icon/mail-icon.svg" alt="" />
-              <p>contact@carpathians.hu</p>
-            </div>
-          </div>
-        </section>
-      </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 16</div>
+                        <img src="img/garden-img-1.jpg" class="slide-img">
+                        <div class="text">Előtéri Kert</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 16</div>
+                        <img src="img/garden-img-2.jpg" class="slide-img">
+                        <div class="text">Hátsó Udvar</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">6 / 16</div>
+                        <img src="img/front-page.jpg" class="slide-img">
+                        <div class="text">Kárpátok Hegyei</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">7 / 16</div>
+                        <img src="img/mountains.jpg" class="slide-img">
+                        <div class="text">Kárpátok Hegyei Hegyei</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">8 / 16</div>
+                        <img src="img/thermal-baths.jpg" class="slide-img">
+                        <div class="text">Termálfürdő</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">9 / 16</div>
+                        <img src="img/giftshop.jpg" class="slide-img">
+                        <div class="text">Ajándékbolt</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">10 / 16</div>
+                        <img src="img/img-2.jpg" class="slide-img">
+                        <div class="text">Kárpátok Hegyei Hegyei Hegyei</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">11 / 16</div>
+                        <img src="img/office-img.jpg" class="slide-img">
+                        <div class="text">Iroda</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">12 / 16</div>
+                        <img src="img/dhcp-server.jpg" class="slide-img">
+                        <div class="text">Szerver Szoba</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">13 / 16</div>
+                        <img src="img/PPT-webpage-background.jpg" class="slide-img">
+                        <div class="text">Internet</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">14 / 16</div>
+                        <img src="img/servers.jpg" class="slide-img">
+                        <div class="text">Utópisztikus Szerver Felhő</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">15 / 16</div>
+                        <img src="img/team-img-1.jpg" class="slide-img">
+                        <div class="text">A Csapatunk!</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">16 / 16</div>
+                        <img src="img/mascot.jpg" class="slide-img">
+                        <div class="text">Kabala Cicusz ฅ^•ﻌ•^ฅ</div>
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                    <span class="dot" onclick="currentSlide(9)"></span>
+                    <span class="dot" onclick="currentSlide(10)"></span>
+                    <span class="dot" onclick="currentSlide(11)"></span>
+                    <span class="dot" onclick="currentSlide(12)"></span>
+                    <span class="dot" onclick="currentSlide(13)"></span>
+                    <span class="dot" onclick="currentSlide(14)"></span>
+                    <span class="dot" onclick="currentSlide(15)"></span>
+                    <span class="dot" onclick="currentSlide(16)"></span>
+                </div>
+
+            </section>
+
+            <div class="fenyofasor"></div>
+
+            <!-- Appointment/Booking section; still undecided. -->
+            <section class="vertical-section-flex">
+                <div style="width: 50%; text-align: center">
+                    <h1 class="heading">Foglalás</h1>
+                    <div class="heading-underline-gallery heading-underline-color-gallery"></div>
+                </div>
+                <div class="book-info">
+                    <div>
+                        <img src="icon/location-icon.svg" alt="" />
+                        <p>2370 Dabas, [név] út [szám].</p>
+                    </div>
+                    <div>
+                        <img src="icon/ringing-phone-icon.svg" alt="" />
+                        <p>+36-20-123-4567</p>
+                    </div>
+                    <div>
+                        <img src="icon/mail-icon.svg" alt="" />
+                        <p>contact@carpathians.hu</p>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
-  </body>
+    <script src="javascript.js"></script>
+
+</body>
 </html>
 
 <!-- To Do:
