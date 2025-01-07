@@ -93,23 +93,23 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #d3f5dd
+    background: #c2e6d7
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #89b195;
+    background: #5ac091;
     border-radius: 999px;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #71b384;
-}
+    ::-webkit-scrollbar-thumb:hover {
+        background: #24b270;
+    }
 
-::-webkit-scrollbar-thumb:active {
-    background: #94e7ac;
-}
+    ::-webkit-scrollbar-thumb:active {
+        background: #07884c;
+    }
 
 /* CSS Configurations above */
 /* Page CSS starts below */
@@ -562,6 +562,7 @@ header a {
     width: 800px;
     height: 500px;
     border-radius: 20px;
+    border: solid black 3px;
 }
 
 /* Next & previous buttons */
@@ -645,12 +646,12 @@ header a {
 /* Fading animation */
 .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 0.75s;
 }
 
 @keyframes fade {
     from {
-        opacity: .4
+        opacity: 0.5
     }
 
     to {
