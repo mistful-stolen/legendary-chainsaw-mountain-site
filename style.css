@@ -93,22 +93,22 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #c2e6d7
+    background: #faeed4
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #5ac091;
+    background: #006A67;
     border-radius: 999px;
 }
 
 /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-        background: #24b270;
+        background: #03817e;
     }
 
     ::-webkit-scrollbar-thumb:active {
-        background: #07884c;
+        background: #039e9a;
     }
 
 /* CSS Configurations above */
@@ -117,11 +117,14 @@ body {
 header {
     background-color: #24403D;
 
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 10px;
-    
     border-bottom: 2px solid black;
 }
 
@@ -191,7 +194,7 @@ header a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 100px;
+    gap: 75px;
 }
 
 .welcome-front {
@@ -526,19 +529,6 @@ header a {
     border-radius: 30px;
 }
 
-.book-info {
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 10px;
-}
-
-.book-info div {
-    display: flex;
-    align-items: center;
-
-}
-
-
 
 
 
@@ -658,4 +648,19 @@ header a {
         opacity: 1
     }
 }
+
+
+
+.book-info {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    background-color: #D6FFEC;
+}
+
+    .book-info div {
+        display: flex;
+        align-items: center;
+    }
+
 

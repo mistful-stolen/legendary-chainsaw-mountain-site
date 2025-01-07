@@ -14,15 +14,15 @@
           rel="stylesheet" />
 
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="icon/icon-grey.svg" />
+    <link rel="icon" href="icon/carpathians_simple.svg" />
 
 </head>
 <body>
     <!-- Header for links at the top -->
     <header>
         <div>
-            <a href="#">
-                <img src="icon/logo.svg" alt="Kárpát Üdülő Hotel Logó" class="logo" />
+            <a href="index.html">
+                <img src="icon/carpathians_hu_white.svg" alt="Kárpát Üdülő Hotel Logó" class="logo" />
             </a>
         </div>
         <div class="div-header-links">
@@ -32,13 +32,13 @@
             <a href="#galeria">Galéria</a>
         </div>
         <div class="div-foglalas">
-            <a href="#">FOGLALÁS</a>
+            <a href="#foglalas">FOGLALÁS</a>
         </div>
     </header>
 
     <!-- Main where most of the content is -->
-    <main>
-        <div class="main-content-flex">
+    <main class="main-content-flex">
+       
             <div class="welcome-front">
                 <h1>
                     Üdvözöljük a <br />
@@ -85,7 +85,7 @@
             <div id="termalfurdo" class="fenyofasor"></div>
 
             <!-- Thermal bath section -->
-            <section class="section-flex">
+            <section class="section-flex" style="margin-bottom: -25px;">
                 <div class="img-div description-img-radius-right img-div-background-color-baths">
                     <a href="img/thermal-baths.jpg" target="_blank">
                         <div role="img"
@@ -107,11 +107,11 @@
                     </p>
                 </div>
             </section>
-        </div>
-        <div id="ajandekbolt" class="baths-giftshop-break"></div>
+      
+        
         <!-- Giftshop section -->
-        <div class="main-content-flex">
-            <section class="section-flex" style="margin-bottom: 50px">
+     
+            <section id="ajandekbolt" class="section-flex" style="margin-top: -100px; padding-top: 150px;">
                 <div class="topic">
                     <div>
                         <h1 class="heading">Ajándékbolt</h1>
@@ -131,6 +131,8 @@
                     </a>
                 </div>
             </section>
+            
+            <div class="fenyofasor"></div>
 
             <!-- Newsletter Section -->
             <section id="newsletter" class="newsletter-background">
@@ -152,11 +154,11 @@
                     </div>
                 </div>
             </section>
-            <div class="fenyofasor"></div>
+            <div id="galeria" class="fenyofasor"></div>
             <!-- Gallery section with a bunch of images -->
-            <section id="galeria"
+            <section 
                      class="vertical-section-flex"
-                     style="padding-top: 20px">
+                     style="margin-top: -155px; margin-bottom: -25px; padding-top: 100px;">
                 <div style="width: 600px; text-align: center">
                     <h1 class="heading">Galéria</h1>
                     <div class="heading-underline-gallery heading-underline-color-gallery"></div>
@@ -320,7 +322,7 @@
                     </div>
                 </div>
             </section>
-        </div>
+       
     </main>
     <script src="javascript.js"></script>
 
