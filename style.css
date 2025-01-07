@@ -653,14 +653,39 @@ header a {
 
 .book-info {
     display: flex;
-    flex-flow: column nowrap;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+ 
+
     background-color: #D6FFEC;
+    height: 200px;
+
 }
 
-    .book-info div {
-        display: flex;
-        align-items: center;
-    }
+.book-info div {
+    height: initial;
+}
 
+.book-info div div {
+    display: flex;
+    align-items: center;
 
+}
+
+.book-info div div * {
+    display: inline-block;
+}
+
+.footer-trees {
+    background-image: url(icon/footer-trees.svg);
+    background-repeat: repeat-x;
+    background-size: 1000px;
+    height: 273px;
+    
+    
+}
+
+footer {
+    background-color: black;
+    height: 500px;
+}
