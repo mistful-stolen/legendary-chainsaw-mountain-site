@@ -199,13 +199,11 @@ header a {
 
 .welcome-front {
     /* Background */
-    
     background-image: url(img/front-page.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center 80%;
-
     height: 565px;
 
     /* Flex & Positioning */
@@ -214,8 +212,7 @@ header a {
     padding-left: 10%;
 
     /* Border */
-   
-    border-bottom: 3px solid black; 
+    border-bottom: 3px solid black;
 }
 
 .welcome-front h1 {
