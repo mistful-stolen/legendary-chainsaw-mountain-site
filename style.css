@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+body:after {
+    display: none;
+    content: url(img/front-page.jpg) url(icon/pine-tree.svg);
+}
+
 blockquote,
 dl,
 dd,
@@ -199,6 +204,7 @@ header a {
 
 .welcome-front {
     /* Background */
+    
     background-image: url(img/front-page.jpg);
     background-repeat: no-repeat;
     background-size: cover;
