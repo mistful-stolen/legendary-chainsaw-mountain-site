@@ -204,6 +204,7 @@ header a {
     background-size: cover;
     background-attachment: fixed;
     background-position: center 80%;
+
     height: 565px;
 
     /* Flex & Positioning */
@@ -212,7 +213,8 @@ header a {
     padding-left: 10%;
 
     /* Border */
-    border-bottom: 3px solid black;
+   
+    border-bottom: 3px solid black; 
 }
 
 .welcome-front h1 {
@@ -653,10 +655,13 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
- 
+    margin-top: 10px;
 
     background-color: #D6FFEC;
     height: 200px;
+    width: 500px;
+    border-radius: 10px;
+
 
 }
 
