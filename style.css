@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-body:after {
-    display: none;
-    content: url(img/front-page.jpg) url(icon/pine-tree.svg);
-}
-
 blockquote,
 dl,
 dd,
