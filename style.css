@@ -697,3 +697,13 @@ footer {
     position: relative;
     z-index: 10;
 }
+
+
+.socials-icon-small img {
+    width: 39px;
+    height: 41px;
+}
+
+.socials-icon-big img {
+    width: 200px;
+}
