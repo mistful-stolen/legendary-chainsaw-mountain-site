@@ -698,6 +698,10 @@ footer {
     z-index: 10;
 }
 
+footer * {
+    color: white;
+}
+
 
 .socials-icon-small img {
     width: 39px;
@@ -707,3 +711,5 @@ footer {
 .socials-icon-big img {
     width: 200px;
 }
+
+
