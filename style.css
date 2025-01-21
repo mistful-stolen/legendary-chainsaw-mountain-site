@@ -197,6 +197,14 @@ header a {
     gap: 75px;
 }
 
+.underline {
+    text-decoration: none;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
 .welcome-front {
     /* Background */
     background-image: url(img/front-page.jpg);
@@ -680,6 +688,10 @@ header a {
     display: inline-block;
 }
 
+.book-info a {
+    font-weight: bold;
+}
+
 .footer-trees {
     background-image: url(icon/footer-trees.svg);
     background-repeat: repeat-x;
@@ -692,8 +704,9 @@ header a {
 
 footer {
     background-color: black;
-    height: 500px;
     width: 100%;
+    padding-top: 50px;
+    padding-bottom: 8px;
 }
 
 footer * {
@@ -703,15 +716,17 @@ footer * {
 footer h3 {
     font-weight: 600;
     font-size: 22px;
+    margin-bottom: 5px;
 }
 
-footer ul li a {
+footer a {
     text-decoration: none;
 }
 
-footer ul li a:hover {
-    text-decoration: underline;
+footer a:hover {
+        text-decoration: underline;
 }
+
 
 .footer-flex {
     display: flex;
@@ -757,6 +772,13 @@ footer ul li a:hover {
 
 .socials-icon-big img {
     width: 150px;
+}
+
+.footer-copyright-text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 
