@@ -281,32 +281,29 @@ header a {
     
 }
 
-.border-black-right {
-    border-right: 2px black solid;
-    border-top: 2px black solid;
-    border-bottom: 2px black solid;
+.border-black {
+    border: 2px black solid;
+  
 }
 
-.border-black-left {
-    border-left: 2px black solid;
-    border-top: 2px black solid;
-    border-bottom: 2px black solid;
-}
+
 
 .section-flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
+
+    flex-flow: row-reverse wrap;
 }
 
 .img-div {
     /* Basic Positioning */
     width: inherit;
     height: 400px;
-    
+    padding-left: 50px;
 
     display: flex;
+    margin-right: 100px;
     
     justify-content: right;
     align-items: end;
@@ -328,7 +325,7 @@ header a {
     
     
     margin-right: -100px;
-    margin-left: 50px;
+    
     margin-bottom: -50px;
 
     transition: 1.2s;
@@ -366,14 +363,12 @@ header a {
 }
 
 .topic {
-    height: 500px;
+    height: 300px;
     max-width: 700px;
    
-    margin-right: 5%;
-    margin-left: 5%;
+   
     padding-top: 75px;
 }
-
 
 .heading-underline {
     margin-top: -20px;
@@ -408,7 +403,7 @@ header a {
     
 
     margin-right: -100px;
-    margin-left: 50px;
+   
     margin-bottom: -50px;
 
     transition: 1.2s;
@@ -445,7 +440,7 @@ header a {
     height: 400px;
 
     margin-left: -100px;
-    margin-right: 50px;
+
     margin-bottom: -50px;
 
     transition: 1.2s;
