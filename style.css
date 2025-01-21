@@ -278,15 +278,15 @@ header a {
 
 .section-flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 100px;
+   
 }
 
 .img-div {
     /* Basic Positioning */
     width: inherit;
-    height: 450px;
+    height: 400px;
     
 
     display: flex;
@@ -311,7 +311,9 @@ header a {
     
     
     margin-right: -100px;
-    
+    margin-left: 50px;
+    margin-bottom: -50px;
+
     transition: 1.2s;
 }
 
@@ -323,8 +325,8 @@ header a {
 
 
 
-.description-img-radius-right {
-    border-radius: 0px 30px 30px 0px ;
+.description-img-radius {
+    border-radius: 30px 30px 30px 30px ;
 }
 
 /* 
@@ -389,6 +391,8 @@ header a {
     
 
     margin-right: -100px;
+    margin-left: 50px;
+    margin-bottom: -50px;
 
     transition: 1.2s;
 }
@@ -414,10 +418,6 @@ header a {
     background-color: #6AA189;
 }
 
-.description-img-radius-left {
-    border-radius: 30px 0px 0px 30px;
-}
-
 .img-giftshop {
     /* Image Styles */
     background-image: url(img/giftshop.jpg);
@@ -428,6 +428,8 @@ header a {
     height: 400px;
 
     margin-left: -100px;
+    margin-right: 50px;
+    margin-bottom: -50px;
 
     transition: 1.2s;
 }
