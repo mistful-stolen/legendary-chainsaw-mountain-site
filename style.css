@@ -124,7 +124,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
+    
     border-bottom: 2px solid black;
 }
 
@@ -139,6 +139,7 @@ header {
 .logo {
     width: 120px;
     height: 60px;
+    margin-left: 10px;
 }
 
 header a {
@@ -258,7 +259,10 @@ header a {
     font-size: 72px;
 
     font-family: "Kalam", cursive;
+    
+    
     -webkit-text-stroke: black 5px;
+    
     pointer-events: none;
 }
 
@@ -456,6 +460,10 @@ header a {
     transition: 1.2s;
 }
 
+.m-top-gift {
+    margin-top: -100px;
+}
+
 .img-div-giftshop-border-adjustment {
     margin-left: 200px; 
     margin-right: 0px; 
@@ -490,7 +498,8 @@ header a {
     border: 2px solid #412907;
     border-radius: 10px;
     height: 200px;
-    width: 700px;
+    width: 75%;
+    max-width: 700px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -503,6 +512,7 @@ header a {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 2px;
 }
 
@@ -534,6 +544,7 @@ header a {
 }
 
 .heading-underline-gallery {
+    width: 500px;
     margin-top: -15px;
     margin-bottom: 20px;
     border-bottom: 6px solid;
@@ -560,7 +571,9 @@ header a {
     overflow-y: scroll;
 }
 
-
+.description-hotel {
+    margin-bottom: 25px;
+}
 
 
 
@@ -774,7 +787,9 @@ footer a:hover {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: flex-start;
+    
 }
+    
 
 .footer-flex-manipulate {
     margin-left: 50px;
@@ -821,10 +836,16 @@ footer a:hover {
     text-align: center;
 }
 
+.footer-manipulate {
+    margin-left: 50px;
+}
+
 @media screen and (max-width: 950px) {
-    .about-manipulate {
+    .footer-manipulate {
         margin-left: 100px;
     }
+
+
 
 }
 
@@ -836,6 +857,11 @@ footer a:hover {
         font-family: "Kalam", cursive;
         font-size: 32px;
         margin-bottom: -10px;
+    }
+
+    .logo {
+        margin-left: -10px;
+        margin-right: -30px;
     }
 
     .div-header-links {
@@ -865,6 +891,224 @@ footer a:hover {
 
 }
 
-@media screen and (max-width: 425px) {
-    
+@media screen and (max-width: 800px) {
+    .footer-manipulate {
+        margin-left: 0px;
+    }
 }
+
+@media screen and (max-width: 700px) {
+    .welcome-front h1 {
+        font-size: 44px;
+        -webkit-text-stroke: black 2px;
+        
+    }
+    
+    .welcome-front-description-below p{
+        font-size: 20px;
+    }
+
+    .img-div {
+        height: 250px;
+        padding-left: 50px;
+    }
+
+    .img-hotel {
+        width: 450px;
+        height: 250px;
+    }
+
+    .img-baths {
+        width: 450px;
+        height: 250px;
+    }
+
+    .img-giftshop {
+        width: 450px;
+        height: 250px;
+    }
+
+    .topic {
+        height: 250px;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .newsletter-text h2 {
+        font-size: 20px;
+    }
+
+    .newsletter-text p {
+        font-size: 20px;
+    }
+
+    .slide-img {
+        width: 300px;
+    }
+
+    .items-flex {
+        align-items: center;
+    }
+ 
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+   
+
+    .title {
+        font-size: 25px;
+    }
+
+    .main-content-flex {
+        gap: 50px;
+    }
+
+    .welcome-front {
+        height: 475px;
+    }
+
+    .welcome-front h1 {
+        font-size: 40px;
+        -webkit-text-stroke: black 2px;
+    }
+
+    .welcome-front-description-below p {
+        font-size: 16px;
+    }
+
+    .topic {
+        padding-top: 0px;
+        height: 200px;
+    }
+
+    .description-hotel {
+        margin-bottom: 50px;
+    }
+
+    .img-div {
+        height: 175px;
+        padding-left: 25px;
+    }
+
+    .img-hotel {
+        width: 350px;
+        height: 200px;
+    }
+
+    .img-baths {
+        width: 350px;
+        height: 200px;
+    }
+
+    .img-giftshop {
+        width: 300px;
+        height: 200px;
+        margin-left: 10px;
+    }
+    
+    .heading-underline{
+        width: 300px;
+    }
+
+    .heading-underline-gallery{
+        width: 300px;
+    }
+
+
+    .img-div-giftshop-border-adjustment {
+        padding-right: 25px;
+        width: 300px;
+    }
+
+    .slide-img {
+        width: 250px;
+
+    }
+
+    .book-info {
+        width: 300px;
+        font-size: 12px;
+    }
+
+
+    .prev, .next {
+        width: 25px;
+        height: 40px;
+
+        margin: 0px -40px;
+    }
+
+    .text {
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .m-top-gift {
+        margin-top: -50px;
+    }
+
+    .newsletter-text h2 {
+        font-size: 18px;
+    }
+
+    .newsletter-text p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .title {
+        display: none;
+    }
+
+    .description-hotel {
+        margin-bottom: 100px;
+    }
+
+    .img-div {
+        height: 125px;
+        width: 175px;
+        padding-left: 25px;
+    }
+
+    .img-hotel {
+        width: 250px;
+        height: 150px;
+    }
+
+    .img-baths {
+        width: 250px;
+        height: 150px;
+    }
+
+    .img-giftshop {
+        width: 250px;
+        height: 150px;
+    }
+
+    .img-div-giftshop-border-adjustment {
+        padding-right: 25px;
+        width: 250px;
+    }
+
+    .slide-img {
+        width: 200px;
+    }
+
+}
+
+    
+    
