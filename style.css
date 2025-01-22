@@ -128,6 +128,10 @@ header {
     border-bottom: 2px solid black;
 }
 
+.hamburger-menu {
+    display: none;
+}
+
 .logo {
     width: 120px;
     height: 60px;
@@ -448,11 +452,15 @@ header a {
     transition: 1.2s;
 }
 
+.img-div-giftshop-border-adjustment {
+    margin-left: 200px; 
+    margin-right: 0px; 
+    padding-right: 50px;
+}
 /* .img-giftshop:hover {
     width: 800px;
     height: 500px;
 } */
-
 .baths-giftshop-break {
     height: 100px;
 }
@@ -548,11 +556,6 @@ header a {
     overflow-y: scroll;
 }
 
-.gallery-div img {
-    height: 300px;
-    width: 300px;
-    border-radius: 30px;
-}
 
 
 
@@ -563,32 +566,40 @@ header a {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
 }
 
 /* Hide the images by default */
 .mySlides {
     display: none;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .slide-img {
-    width: 800px;
-    height: 500px;
+    
+    width: 500px;
     border-radius: 20px;
     border: solid black 3px;
+
+    margin: 0px 50px;
 }
 
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+   
     
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
     color: white;
     background-color: rgba(0,0,0,0.4);
     font-weight: bold;
@@ -621,13 +632,14 @@ header a {
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 15px;
     padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 300px;
-    right: 250px;
-    border-radius: 15px;
   
+    width: 300px;
+ 
+    border-radius: 15px;
+    
     text-align: center;
+    margin-top: 20px;
+
 }
 
 /* Number text (1/3 etc) */
@@ -723,6 +735,7 @@ footer {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 8px;
+    padding: 0px 50px;
 }
 
 footer * {
@@ -748,6 +761,8 @@ footer a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    flex-flow: row wrap;
 }
 
 .items-flex {
@@ -755,6 +770,10 @@ footer a:hover {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: flex-start;
+}
+
+.footer-flex-manipulate {
+    margin-left: 50px;
 }
 
 
@@ -795,6 +814,41 @@ footer a:hover {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 950px) {
+    .about-manipulate {
+        margin-left: 100px;
+    }
+
 }
 
 
+@media screen and (max-width: 900px) {
+    .div-header-links {
+        display: none;
+    }
+    
+    .div-foglalas{
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .img-baths {
+        width: 650px;
+    }
+
+    .img-div-giftshop-border-adjustment {
+        margin-left: 0px;
+    }
+
+    .about-manipulate {
+        margin-left: 50px;
+    }
+
+}
