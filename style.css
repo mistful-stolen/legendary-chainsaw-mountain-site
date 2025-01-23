@@ -878,16 +878,23 @@ footer a:hover {
         display: none;
     }
 
-    .phone-header-links {
+    #phone-header {
+        display: flex;
         position: fixed;
         background-color: rgba(0, 0, 0, 0.4);
         width: 100%;
         height: 100%;
         z-index: 200;
+        bottom: -1000px;
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
         gap: 40px;
+        transition: .3s ease;
+    }
+
+    #phone-header.active {
+        bottom: 0px;
     }
 
 

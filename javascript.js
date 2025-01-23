@@ -34,11 +34,8 @@ function hamburgerMenu() {
     phoneLinks = document.getElementById("phone-header")
 
     hamburgermenu.addEventListener("click", () => {
-        if (phoneLinks.style.display === "none") {
-            phoneLinks.style.display = "flex";
-        } else {
-            phoneLinks.style.display = "none";
-        }
+        phoneLinks.classList.toggle('active');
+        
     });
 }
 
