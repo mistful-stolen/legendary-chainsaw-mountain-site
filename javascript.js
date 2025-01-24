@@ -30,12 +30,13 @@ function showSlides(n) {
 
 function hamburgerMenu() {
     hamburgermenu = document.getElementById("hamburger-menu")
-  
     phoneLinks = document.getElementById("phone-header")
+    body = document.getElementById("body")
 
     hamburgermenu.addEventListener("click", () => {
         phoneLinks.classList.toggle('active');
-        
+        body.classList.toggle('active');
+
     });
 }
 
