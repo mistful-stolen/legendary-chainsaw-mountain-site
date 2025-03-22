@@ -29,16 +29,48 @@ function showSlides(n) {
 }
 
 function hamburgerMenu() {
-    hamburgermenu = document.getElementById("hamburger-menu")
-    phoneLinks = document.getElementById("phone-header")
-    body = document.getElementById("body")
+    const hamburgermenu = document.getElementById("hamburger-menu");
+    const phoneHeader = document.getElementById("phone-header");
+    const body = document.getElementById("body");
+
+    const hotelBtn = document.getElementById("hotel-btn");
+    const termalBtn = document.getElementById("termal-btn");
+    const giftBtn = document.getElementById("gift-btn");
+    const galleryBtn = document.getElementById("gallery-btn");
+    const bookingBtn = document.getElementById("booking-btn");
 
     hamburgermenu.addEventListener("click", () => {
-        phoneLinks.classList.toggle('active');
+        phoneHeader.classList.toggle('active');
         body.classList.toggle('active');
-
     });
-}
+
+    hotelBtn.addEventListener("click", () => {
+        phoneHeader.classList.toggle('active');
+        body.classList.toggle('active');
+    });
+
+    termalBtn.addEventListener("click", () => {
+        phoneHeader.classList.toggle('active');
+        body.classList.toggle('active');
+    });
+
+    giftBtn.addEventListener("click", () => {
+        phoneHeader.classList.toggle('active');
+        body.classList.toggle('active');
+    });
+
+    galleryBtn.addEventListener("click", () => {
+        phoneHeader.classList.toggle('active');
+        body.classList.toggle('active');
+    });
+
+    bookingBtn.addEventListener("click", () => {
+        phoneHeader.classList.toggle('active');
+        body.classList.toggle('active');
+    });
+
+
+};
 
 hamburgerMenu();
 
